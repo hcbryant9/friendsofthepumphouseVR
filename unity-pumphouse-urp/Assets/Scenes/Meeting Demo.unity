@@ -10840,6 +10840,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animators:
   - {fileID: 8882836666825110173}
+  - {fileID: 883955498}
+  - {fileID: 1955745316}
+  - {fileID: 8882836667375779303}
+  - {fileID: 8882836667670739818}
+  - {fileID: 8882836668456445605}
 --- !u!4 &1313943065
 Transform:
   m_ObjectHideFlags: 0
