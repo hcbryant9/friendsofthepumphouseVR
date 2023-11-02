@@ -6,8 +6,8 @@ public class AnimatorController : MonoBehaviour
 {
     // array of animators that we reference in the inspector
     public Animator[] animators;
-    
 
+    //public PlayerAudioOnTriggerEnter playerAudioOnTriggerEnter;
     // method to start animators
     public void startAnimators()
     {
@@ -17,6 +17,7 @@ public class AnimatorController : MonoBehaviour
             animator.SetTrigger("StartAnimation"); 
             // Replace "StartAnimation" with the actual trigger name in your Animator Controller.
         }
+        //playerAudioOnTriggerEnter.setIsAnim(true);
     }
     
     // method to stop animators
@@ -27,5 +28,6 @@ public class AnimatorController : MonoBehaviour
             animator.ResetTrigger("StartAnimation"); // Replace "StartAnimation" with the actual trigger name in your Animator Controller.
             animator.SetTrigger("StopAnimation"); // Create a "StopAnimation" trigger in your Animator Controller.
         }
+        //playerAudioOnTriggerEnter.setIsAnim(false);
     }
 }
