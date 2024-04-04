@@ -82,6 +82,9 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+#Large Audio Files
+*.wav
+
 # Crashlytics generated file
 crashlytics-build.properties
 
